@@ -1,5 +1,4 @@
-* [标题](README.md)
-* [开始](overview.md)
+* [开始](README.md)
 * [dns服务器搭建](dnsmasq.md)
 * [gitlab搭建](gitlab-server.md)
 * [gitlab-ci搭建](gitlab-ci.md)
