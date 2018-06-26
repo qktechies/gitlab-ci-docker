@@ -2,6 +2,7 @@
 
 参考 https://about.gitlab.com/installation
 
+分享的时候上面确实是gitlab-ee的安装教程，不是gitlab-ce的，gitlab-ce可以看[https://packages.gitlab.com/gitlab/gitlab-ce/install](https://packages.gitlab.com/gitlab/gitlab-ce/install)
 
 ## 准备工作
 
