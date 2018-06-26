@@ -1,5 +1,4 @@
-#
-gitlab+gitlab-ci+docker+dnsmasq 本地集成环境搭建
+# gitlab+gitlab-ci+docker+dnsmasq 本地集成环境搭建
 
 ## 总览
 
