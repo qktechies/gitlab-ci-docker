@@ -87,10 +87,9 @@ config.vm.synced_folder "./labs", "/home/vagrant/labs"
 config.vm.provision "shell", privileged: true, path: "./setup.sh"
 
 end
-
 ```
 
-## 修改两台机器的hosts文件(后面不需要 因为有dns服务器了)
+## 修改两台机器的hosts文件\(后面不需要 因为有dns服务器了\)
 
 ```
 192.168.211.10 gitlab.example.com
@@ -145,15 +144,16 @@ sudo yum install -y git vim gcc glibc-static telnet
 
 ## 为第一台服务器添加安装gitlab的脚本
 
-见lab/scripts/gitlab.sh
+见vagrant/lab/scripts/gitlab.sh
 
 ## 为第二台服务器添加安装docker的脚本
 
 docker安装教程:[https://docs.docker.com/install/linux/docker-ce/centos/](https://docs.docker.com/install/linux/docker-ce/centos/)
 
-见lab/scripts/docker.sh
+见vagrant/lab/scripts/docker.sh
 
 
 ## 为第二台服务器添加安装gitlab-ci的脚本
 
-见lab/scripts/gitlab-ci.sh
+见vagrant/lab/scripts/gitlab-ci.sh
+
